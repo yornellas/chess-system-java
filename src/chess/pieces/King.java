@@ -15,4 +15,11 @@ public class King extends ChessPiece{
 		return "K";
 	}
 
+	@Override
+	public Boolean[][] possibleMoves() {
+		//temporário:
+		Boolean[][] mat = new Boolean[getBoard().getRows()][getBoard().getColumns()];
+		return mat;
+	}
+
 }
