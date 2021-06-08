@@ -117,11 +117,11 @@ public class UI {
 		System.out.println("White");
 		System.out.print(ANSI_WHITE);
 		System.out.println(Arrays.toString(white.toArray()));
-		System.out.println(ANSI_RESET);
+		System.out.print(ANSI_RESET);
 		System.out.println("Black");
 		System.out.print(ANSI_YELLOW);
 		System.out.println(Arrays.toString(black.toArray()));
-		System.out.println(ANSI_RESET);
+		System.out.print(ANSI_RESET);
 	}
 }
 
